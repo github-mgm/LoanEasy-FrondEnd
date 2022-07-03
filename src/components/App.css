@@ -1,0 +1,302 @@
+.App {
+  text-align: center;
+}
+
+* {
+  padding:0;
+  margin:0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: montserrat;
+  
+}
+
+nav {
+  background: #0082e6;
+  height: 80px;
+  width:100%;
+
+}
+
+label.logo {
+  color:white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 50px;
+  font-weight: bold;
+}
+
+nav ul {
+  float:right;
+  margin-right: 20px;
+
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 30px;
+}
+
+nav ul li a {
+  color:white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius:3px;
+  text-transform: uppercase;
+}
+
+a.active, a:hover {
+  background: #1b9bff;
+  transition: .5s;
+
+}
+
+.heading1 { 
+    display:inline-block;
+    line-height: 90px;
+    padding:0 50px;
+    font-size:25px;
+
+}
+
+.heading2 {
+  position:absolute;
+  margin-top:-30px;
+  padding: 0 50px;
+  font-size:25px;
+
+}
+
+.icon1 {
+  position:relative;
+  bottom: -40px;
+  padding:0 200px;
+  font-size: 2.73em;
+  color:#6699CC;
+  box-sizing:content-box;
+  width:100%;
+  
+}
+
+.p1 {
+  font-size: 9px;
+  position: relative;
+  bottom: -5px;
+  
+}
+
+.icon2 {
+  position:relative;
+  bottom: 21.8px;
+  padding:0 400px;
+  font-size: 2.73em;
+  color:#1b9bff;
+}
+
+.p2 {
+  font-size: 9px;
+  position: relative;
+  bottom: -5px;
+}
+
+.icon3 {
+  position:relative;
+  bottom: 85px;
+  padding:0 600px;
+  font-size: 2.73em;
+  color:black;
+}
+
+.p3 {
+  font-size: 9px;
+  position: relative;
+  bottom: -5px;
+}
+
+.icon4 {
+  position:relative;
+  bottom: 155px;
+  padding:0 800px;
+  font-size: 2.73em;
+  color:green;
+}
+
+.p4 {
+  font-size: 9px;
+  position: relative;
+  bottom: -5px;
+}
+
+.icon5 {
+  position:relative;
+  bottom: 224px;
+  padding:0 1000px;
+  font-size: 2.73em;
+  color:rgb(236, 72, 72);
+}
+.p5 {
+  font-size: 9px;
+  position: relative;
+  bottom: -5px;
+}
+
+.icon6 {
+  position:relative;
+  bottom: 176px;
+  padding:0 200px;
+  font-size: 2.73em;
+  color:orange;
+}
+
+.p6 {
+  font-size: 9px;
+  position: relative;
+  bottom: -5px;
+}
+.icon7 {
+  position:relative;
+  bottom: 238px;
+  padding:0 400px;
+  font-size: 2.73em;
+  color:#ca1bff;
+}
+.p7 {
+  font-size: 9px;
+  position: relative;
+  bottom: -5px;
+}
+.icon8 {
+  position:relative;
+  bottom: 303px;
+  padding:0 600px;
+  font-size: 2.73em;
+  color:#5fabbe;
+}
+
+.p8 {
+  font-size: 9px;
+  position: relative;
+  bottom: -5px;
+}
+.icon9 {
+  position:relative;
+  bottom: 368px;
+  padding:0 800px;
+  font-size: 2.73em;
+  color:#1b9bff;
+}
+.p9 {
+  font-size: 9px;
+  position: relative;
+  bottom: -5px;
+}
+
+.icon10 {
+  position:relative;
+  bottom: 438px;
+  padding:0 1000px; 
+  font-size: 2.73em;
+  color:black; 
+}
+
+.p10 {
+  font-size: 9px;
+  position: relative;
+  bottom: -5px;
+}
+
+.heading4 {
+  position:relative;
+  bottom:430px;
+  padding: 0 50px;
+  font-size:17px;
+}
+
+.head1 {
+  position:relative;
+  padding:0 200px;
+  font-size: 13.5px;
+  bottom:450px;
+  background: ghostwhite;
+  padding:10px;
+  border: 1px solid lightblue; 
+  box-sizing:border-box;
+  width:128px;
+  height:50px;
+  left:1000px;
+}
+
+.head2 {
+  position:relative;
+  font-size: 13.5px;
+  bottom:500px;
+  background: ghostwhite;
+  padding:10px;
+  border: 1px solid lightblue; 
+  box-sizing:border-box;
+  width:128px;
+  height:50px;
+  left:190px;
+}
+
+.head3 {
+  position:relative;
+  padding: 0 600px;
+  font-size: 13.5px;
+  bottom:550px;
+  background: ghostwhite;
+  padding:10px;
+  border: 1px solid lightblue;   
+  box-sizing:border-box;
+  width:128px;
+  height:50px;
+  left:590px;
+}
+
+.heading5 {
+  position:relative;
+  bottom:500px;
+  padding: 0 50px;
+  font-size:43px;
+}
+
+.heading8 {
+  position:relative;
+  bottom:517px;
+  padding: 0 50px;
+  font-size:43px;
+}
+
+.heading6 {
+  position:relative;
+  bottom:517px;
+  padding: 0 50px;
+  font-size:43px;
+}
+
+.heading7 {
+  position:relative;
+  bottom:536px;
+  padding: 0 50px;
+  font-size:43px;
+}
+
+.box1 {
+  position:relative;
+  padding:0 600px;
+  bottom:690px;
+  font-size: 20px;;
+}
+
+.box2 {
+  position:relative;
+  padding:0 1000px;
+  bottom:750px;
+  font-size: 20px;;
+}
+
